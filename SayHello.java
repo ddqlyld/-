@@ -3,7 +3,7 @@ package 线程.作业;
 public class SayHello extends Thread{
     @Override
     public void run() {
-        for (int i=1;i<=20;i++){
+        for (int i=1;i<=15;i++){
             System.out.println(Thread.currentThread().getName()+"你好");
         }
     }
